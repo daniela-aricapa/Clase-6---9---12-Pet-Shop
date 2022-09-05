@@ -1,0 +1,309 @@
+*{font-family: 'Roboto', sans-serif;}
+
+.mini-header{background-color: black ; 
+    height: 24px;
+}
+.ofertas{ color: white;
+    font-size: 10px;
+    line-height: 12px;
+    position:relative;
+    bottom: -5px;
+    margin-left: 80px;
+    }
+
+.ul1{ color: white;
+   font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    position: relative;
+    bottom:16px;
+    left: 1200px;
+    width: 100px;
+    justify-content: space-between;
+}
+    
+   .ul1 a{ color: white;
+}
+
+a{text-decoration: none;}
+
+.menu {
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 15px;
+    justify-content: space-around;
+    align-items: right;
+    margin: 8px;
+    position: relative;
+    left: 770px;
+}
+
+.header{background-color: #F0A83E ;
+    height: 62px;
+    display: flex;
+    align-items: center;
+   }
+
+.logo{display: flex;
+    margin-left:  30px; }
+    
+.titulo-banner{
+    width: 345px;
+    background-color: white;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    position:absolute;
+    left: 870px;
+    top: 160px;
+   }
+    
+.banner{background: url(../Imagenes/bowl-and-pet-daities-on-green-background\ 1.png);
+        height: 409px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #000;
+        font-size: 16px;
+        line-height: 19px;
+        position: relative;
+        display: flex;
+        }
+
+.descuento {width: 190px;
+        text-align: center;
+        position:absolute;
+        left:950px;
+        top: 195px;
+            }
+    
+.boton{color: white;
+    background: #F0A83E ;
+    width: 141px;
+    height: 49px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left:975px;
+    top: 250px; }
+
+.productos-desta{ text-align: center;
+margin-top:16px;}
+      
+a{color: #000;}
+
+.productosd{ font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 250px;
+    width: 900px;}
+
+.productosv{text-align: center;
+line-height:6px;
+background: #FBFAF6;
+width: 265px;
+height: 320px;
+}
+
+.productosd1 {font-size: 15px;
+font-weight: bold;
+color: #3C2313;
+}
+
+.precio{font-size: 15px;
+color: #F0A83E;
+margin-bottom: 0px;}
+
+
+.contactanosform{ margin: 10px;
+    text-align: center;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+color: #3C2313;}
+
+
+.inputs{color: #FFFFFF;
+width: 340px;
+height: 40px;
+display: flex;
+background-color:  #3C2313;
+border-radius: 15px;
+font-size: 10px;
+line-height: 11px;
+margin:10px;
+align-items: center;}
+
+::placeholder {font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+color: white;}
+
+.formulario{margin-bottom: 80px;}
+
+form{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+ 
+.botones{margin: 10px;}
+
+
+.reset{ width: 110px;
+    height: 34px;
+    background: #8A8787;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border:1px solid #8A8787;}
+
+.submit{width: 110px;
+    height: 34px;
+    background: #F0A83E;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border-radius: 15px;
+    border:1px solid #F0A83E ;
+  }
+
+
+.zonasus{background: #F0A83E;
+color: white;
+height: 60px;
+display: flex;
+justify-content: space-around;
+}
+
+.envio{position:relative;
+right:80px}
+
+.suscribete{position:relative;
+right:240px;
+top:5px;
+}
+
+.correo{position:relative;
+    right:240px;
+    top:5px;
+    background: white;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:10px;
+    left:170px;
+    width: 271px;
+    height: 40px;
+border-radius: 15px;
+border:1px solid white;
+}
+
+.correo::placeholder {color:#A0A0A0;
+    font-size: 9px;
+    line-height: 11px;}
+
+.suscribirme{background: #3C2313;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:13px;
+    left:-3px;
+    width: 90px;
+    height: 34px;}
+
+
+.info{background: #3C2313;}
+
+.imagenes{ 
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.imagen1{display:block;
+margin-bottom: 10px;
+}
+
+
+.enlaces{font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    width:190px;
+    position: absolute;
+    top: 1570px;
+    left: 150px;
+}
+.enlaces1{font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    width:190px;
+    position: absolute;
+    top: 1640px;
+    left: 150px;
+}
+.enlaces2{font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: bold;
+    display: flex;
+    width:190px;
+    position: absolute;
+    top: 1720px;
+    left: 150px;
+}
+
+.dato{font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    display: flex;
+    width:190px;
+    position: absolute;
+    top:  1595px;
+    left: 150px;
+}
+
+.dato1{font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    display: flex;
+    width:190px;
+    position: absolute;
+    top: 1668px;
+    left: 150px;
+}
+.dato2{font-size: 10px;
+    line-height: 12px;
+    color: #8A8787;
+    display: flex;
+    width:190px;
+    position: absolute;
+    top: 1745px;
+    left: 150px;
+    }
+
+.logo2{position:relative;
+    left:1050px;
+    bottom: 135px ;
+    
+    }
+
+  
+.footer{background: #222222;
+    color: white;
+    text-align: center;  
+}
